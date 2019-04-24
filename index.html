@@ -19,12 +19,34 @@
 				<p>Full-Stack web developer</p>
 
 				<ul id="menu">
-					<li>Contacto</li>
-					<li>Habilidades profesionales</li>
-					<li>Experiencia laboral</li>
-					<li>Habilidades personales</li>
-					<li>Formación</li>
-					<li>Certificados</li>
+					<li>
+						<a href="#perfil"><div class="btn-menu">Perfil</div></a>
+					</li>
+					<li>
+						<a href="#contacto">
+							<div class="btn-menu">Contacto</div>
+						</a>
+					</li>
+					<li>
+						<a href="#formacion">
+							<div class="btn-menu">Formación</div>
+						</a>
+					</li>
+					<li>
+						<a href="#experiencia-laboral">
+							<div class="btn-menu">Experiencia laboral</div>
+						</a>
+					</li>
+					<li>
+						<a href="#habilidades-profesionales">
+							<div class="btn-menu">Habilidades profesionales</div>
+						</a>
+					</li>
+					<li>
+						<a href="#portofolio">
+							<div class="btn-menu">Portofolio</div>
+						</a>
+					</li>
 				</ul>
 			</div>
 
@@ -33,7 +55,7 @@
 
 	<div id="content">
 		
-		<section>
+		<section id="perfil">
 			<div class="title-container">
 				<div class="icon-container">
 					<i class="fas fa-user-circle section-title"></i>
@@ -46,7 +68,7 @@
 			</div>
 		</section>
 
-		<section>
+		<section id="contacto">
 			<div class="title-container">
 				<div class="icon-container">
 					<i class="fas fa-id-card section-title"></i>
@@ -55,16 +77,28 @@
 				<div class="line"></div>
 			</div>
 			<div class="content-container">
-				<ul>
-					<li>edujpp1@gmail.com</li>
-					<li>+54 11 2388 9365</li>
-					<li>LinkedIn: EduuardoPerez</li>
-					<li>Recoleta, C.A.B.A</li>
+				<ul id="contact">
+					<li>
+						<i class="fas fa-envelope-open"></i>
+						edujpp1@gmail.com
+					</li>
+					<li>
+						<i class="fas fa-phone-square"></i>
+						+54 11 2388 9365
+					</li>
+					<li>
+						<i class="fab fa-linkedin"></i>
+						LinkedIn: EduuardoPerez
+					</li>
+					<li>
+						<i class="fas fa-map-marker-alt"></i>
+						Recoleta, C.A.B.A
+					</li>
 				</ul>
 			</div>
 		</section>
 
-		<section>
+		<section id="formacion">
 			<div class="title-container">
 				<div class="icon-container">
 					<i class="fas fa-edit section-title"></i>
@@ -73,21 +107,22 @@
 				<div class="line"></div>
 			</div>
 			<div class="content-container">
-				<ul>
+				<ul class="education-experience">
 					<li>
 						<p><strong>Unidad Educativa Privada Espíritu Santo</strong></p>
-						<p>2007 - 2012</p>
+						<p class="date">2007 - 2012</p>
 						<p>Estudios de secundaria con título de: Educación media general en ciencias</p>
 					</li>
 					<li>
 						<p><strong>Facultad de Ingeniería, Universidad de los Andes</strong></p>
+						<p class="date">2013 - 2017</p>
 						<p>Estudios en Ingeniería de sistemas. 4to semestre aprobado. Conocimientos de: lenguajes de programación C y C++, programación orientada a objetos, manejo de conjuntos y arquitectura de computadoras, cálculo 10, 20 y 30, física 11 y 21, y mecánica general.</p>
 					</li>
 				</ul>
 			</div>
 		</section>
 
-		<section>
+		<section id="experiencia-laboral">
 			<div class="title-container">
 				<div class="icon-container">
 					<i class="fas fa-briefcase section-title"></i>
@@ -96,22 +131,22 @@
 				<div class="line"></div>
 			</div>
 			<div class="content-container">
-				<ul>
+				<ul class="education-experience">
 					<li>
 						<p><strong>CoffeeCode C.A. J–40881967–8, Venezuela</strong></p>
-						<p>Octubre, 2016 – Octubre, 2017</p>
+						<p class="date">Octubre, 2016 – Octubre, 2017</p>
 						<p>Cofundador y desarrollador junior. Administrador del startup delegando funciones, captando clientes y realizando los trámites necesarios para mantener el mismo solvente ante las entidades gubernamentales. De desarrollador trabajando con lenguajes de programación JavaScript y PHP, haciendo uso de frameworks como JQuery y Laravel, maquetando por medio de HTML, HTML5, CSS, CSS3 y los frameworks Bootstrap y Materialize.</p>
 					</li>
 					<li>
 						<p><strong>Prisma Medios de pago S.A., Lavarden 247, Parque Patricios, Buenos Aires</strong></p>
-						<p>Marzo, 2018 – al presente</p>
+						<p class="date">Marzo, 2018 – al presente</p>
 						<p>Analista de monitoreo en Prisma Medios de Pago S.A. Monitoreando por diferentes plataformas (Nagios, Data Analyzer, OVNM, Dynatrace) la actividad en redes de telecomunicaciones que se rigen principalmente por un sistema transaccional, tomando acción en primer nivel sobre diferentes plataformas (servidores Linux (Apache, Jboss), Windows (IIS), Mainframe, Stratus, Tandem, IVR , Bases de Datos, Redes pos) a través de softwares cuando es necesario para corregir fallas que pueden ser dadas por altos tiempos de respuesta u otros.</p>
 					</li>
 				</ul>
 			</div>
 		</section>
 
-		<section>
+		<section id="habilidades-profesionales">
 			<div class="title-container">
 				<div class="icon-container">
 					<i class="fas fa-chart-pie section-title"></i>
@@ -121,20 +156,78 @@
 			</div>
 			<div class="content-container">
 				<ul>
-					<li>Linux</li>
-					<li>Windows</li>
-					<li>HTML5</li>
-					<li>CSS3</li>
-					<li>C++</li>
-					<li>Laravel</li>
-					<li>Django</li>
-					<li>MySQL</li>
-					<li>SQL Server</li>
+					<div id="item-skill-left">
+						<li>
+							Linux
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="Linux-bar" class="filling-bar"></div>
+							</div>
+						</li>
+						<li>
+							HTML5
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="HTML5-bar" class="filling-bar"></div>
+							</div>
+						</li>
+						<li>
+							C++
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="C-bar" class="filling-bar"></div>
+							</div>
+						</li>
+						<li>
+							Django
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="Django-bar" class="filling-bar"></div>
+							</div>
+						</li>
+						<li>
+							SQL Server
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="SQLServer-bar" class="filling-bar"></div>
+							</div>
+						</li>
+					</div>
+					<div id="item-skill-rigth">
+						<li>
+							Windows
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="Windows-bar" class="filling-bar"></div>
+							</div>
+						</li>
+						<li>
+							CSS3
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="CSS3-bar" class="filling-bar"></div>
+							</div>
+						</li>
+						<li>
+							Laravel
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="Laravel-bar" class="filling-bar"></div>
+							</div>
+						</li>
+						<li>
+							MySQL
+							<div class="bar">
+								<div class="border-bar"></div>
+								<div id="MySQL-bar" class="filling-bar"></div>
+							</div>
+						</li>
+					</div>
 				</ul>
 			</div>
 		</section>
 		
-		<section>
+		<section id="portofolio">
 			<div class="title-container">
 				<div class="icon-container">
 					<i class="fas fa-archive section-title"></i>
@@ -143,6 +236,30 @@
 				<div class="line"></div>
 			</div>
 			<div class="content-container">
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/ciudad-zombie-icon.png" alt="Ciudad Zombie">
+				</div>
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/cv-icon.png" alt="CV">
+				</div>
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/encuestados-icon.png" alt="Encuestados">
+				</div>
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/mapa-interactivo-icon.png" alt="Mapa">
+				</div>
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/peli-vs-peli-icon.png" alt="Peli vs. Peli">
+				</div>
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/pixel-art-icon.png" alt="Pixel art">
+				</div>
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/que-veo-icon.png" alt="Que veo">
+				</div>
+				<div class="images">
+					<img class="portofolio-pic" src="assets/imgs/recargado-icon.png" alt="Recargado">
+				</div>
 			</div>
 		</section>
 	</div>
